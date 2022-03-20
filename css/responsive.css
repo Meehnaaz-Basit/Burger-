@@ -1,0 +1,221 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    .head-info {
+       top: 20%;
+    }
+    .head-info p {
+      font-size: 20px;
+      width: 324px;
+    }
+    .head-info h1 {
+      font-size: 52px;
+    }
+    .head-info h4 {
+      font-size: 46px;
+    }
+    .bur-img {
+      top: -34px;
+      
+      width: 100%;
+      height: 188px; 
+  }
+  .bur-img img{
+    max-width: 70%;
+    margin-left: 218px;
+  }
+  .bur-tag img{
+    max-width: 50%;
+  }
+  .bur-tag {
+    position: absolute;
+    top: 88%;
+    right: 5%;
+  }
+  .items-head h6 {
+     margin: 0;
+  }
+  
+  .bur-items{
+    display: inline;
+  }
+  .item-dis p {
+    font-size: 20px;
+  }
+  .item-dis{
+    margin-top: 30px;
+  }
+
+/* *** form **** */
+
+.con-form {
+  padding: 0;
+}
+.form-head h6 {
+  font-size: 25px;
+}
+.form-head h1 {
+  font-size: 32px;
+  margin-top: 0px;
+}
+.form-body {
+   margin: 0;
+}
+.tables input {
+  WIDTH: 39%;
+  height: 50px;
+  margin: 6px;
+}
+.tables button {
+  margin: 0px 7px;
+  padding: 9px 18px;
+  font-size: 21px;
+}
+.item-dis img{
+  max-width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    .items-head h6{
+        margin: 0px 0px;
+    }
+    .head-info {
+      position: unset;
+      text-align: center;
+  }
+  .navbar-toggler{
+    padding: 0 !important;
+  }
+  .nav-link {
+    padding: 0;
+    font-size: 18px;
+    
+  }
+    .head-info h1{
+        font-size: 56px;
+    }
+    .head-info h4{
+        font-size: 43px;
+    }
+    .head-info p {
+        font-size: 15px;
+    }
+  
+   .bur-tag {
+    position: absolute;
+    top: 73%;
+    right: 57%;
+    width: 71px;
+}
+
+
+/* ******* section 2 ***** */
+.lef2-img{
+  margin-top: 35px;
+}
+.tryit {
+   padding-top: 0px;
+  }
+  .bur-items {
+     display: inline;
+  }
+  .item-dis{
+    margin-top: 40px;
+  }
+  .con-form {
+    padding: 0px 0;
+}
+.form-head h1 {
+  font-size: 36px;
+   margin-top: 0px;
+}
+.tables input {
+  WIDTH: 85%;
+  height: 49px;
+  margin: 11px;
+}
+.tables button {
+  margin: 12px 11px;
+  padding: 8px 63px;
+  font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
